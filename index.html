@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2024_05_04_SAT_5</title>
+    <link
+      rel="stylesheet"
+      href="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_css/header.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_css/footer.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu">
+        <img
+          src="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_img/menu.svg"
+          alt="menu"
+        />
+      </div>
+
+      <div class="title">
+        <h1>Wordle</h1>
+      </div>
+
+      <div class="icons">
+        <div class="icons__tip">
+          <img
+            src="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_img/tip.svg"
+            alt="tip"
+          />
+        </div>
+        <div class="icons__chart">
+          <img
+            src="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_img/chart.svg"
+            alt="chart"
+          />
+        </div>
+        <div class="icons__set_up">
+          <img
+            src="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_img/set-up.svg"
+            alt="set-up"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="board_time">00:00</div>
+
+      <div class="board_row_row_0">
+        <!--date- 태그 : HTML에서 지정된 표준 속성(class 태그, id 태그 등) 말고, 사용자가 직정 지정할 수 있는 태그-->
+        <!--
+          data- 뒤는 속성명을 적어주어야 함 ex)data-apple
+          주로 JAVAscript와 css를 연결할 때 사용함
+        -->
+        <div class="board_block" data-wordle="00"></div>
+        <div class="board_block" data-wordle="01"></div>
+        <div class="board_block" data-wordle="02"></div>
+        <div class="board_block" data-wordle="03"></div>
+        <div class="board_block" data-wordle="04"></div>
+      </div>
+      <div class="board_row_row_1">
+        <div class="board_block" data-wordle="10"></div>
+        <div class="board_block" data-wordle="11"></div>
+        <div class="board_block" data-wordle="12"></div>
+        <div class="board_block" data-wordle="13"></div>
+        <div class="board_block" data-wordle="14"></div>
+      </div>
+      <div class="board_row_row_2">
+        <div class="board_block" data-wordle="20"></div>
+        <div class="board_block" data-wordle="21"></div>
+        <div class="board_block" data-wordle="22"></div>
+        <div class="board_block" data-wordle="23"></div>
+        <div class="board_block" data-wordle="24"></div>
+      </div>
+      <div class="board_row_row_3">
+        <div class="board_block" data-wordle="30"></div>
+        <div class="board_block" data-wordle="31"></div>
+        <div class="board_block" data-wordle="32"></div>
+        <div class="board_block" data-wordle="33"></div>
+        <div class="board_block" data-wordle="34"></div>
+      </div>
+      <div class="board_row_row_4">
+        <div class="board_block" data-wordle="40"></div>
+        <div class="board_block" data-wordle="41"></div>
+        <div class="board_block" data-wordle="42"></div>
+        <div class="board_block" data-wordle="43"></div>
+        <div class="board_block" data-wordle="44"></div>
+      </div>
+      <div class="board_row_row_5">
+        <div class="board_block" data-wordle="50"></div>
+        <div class="board_block" data-wordle="51"></div>
+        <div class="board_block" data-wordle="52"></div>
+        <div class="board_block" data-wordle="53"></div>
+        <div class="board_block" data-wordle="54"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="keyboard_row_row_0">
+        <div class="keyboard_block" data-key="Q">Q</div>
+        <div class="keyboard_block" data-key="W">W</div>
+        <div class="keyboard_block" data-key="E">E</div>
+        <div class="keyboard_block" data-key="R">R</div>
+        <div class="keyboard_block" data-key="T">T</div>
+        <div class="keyboard_block" data-key="Y">Y</div>
+        <div class="keyboard_block" data-key="U">U</div>
+        <div class="keyboard_block" data-key="I">I</div>
+        <div class="keyboard_block" data-key="O">O</div>
+        <div class="keyboard_block" data-key="P">P</div>
+      </div>
+      <div class="keyboard_row_row_1">
+        <div class="keyboard_block" data-key="A">A</div>
+        <div class="keyboard_block" data-key="S">S</div>
+        <div class="keyboard_block" data-key="D">D</div>
+        <div class="keyboard_block" data-key="F">F</div>
+        <div class="keyboard_block" data-key="G">G</div>
+        <div class="keyboard_block" data-key="H">H</div>
+        <div class="keyboard_block" data-key="J">J</div>
+        <div class="keyboard_block" data-key="K">K</div>
+        <div class="keyboard_block" data-key="L">L</div>
+      </div>
+      <div class="keyboard_row_row_2">
+        <div class="keyboard_block_2" data-key="ENTER">ENTER</div>
+        <div class="keyboard_block" data-key="Z">Z</div>
+        <div class="keyboard_block" data-key="X">X</div>
+        <div class="keyboard_block" data-key="C">C</div>
+        <div class="keyboard_block" data-key="V">V</div>
+        <div class="keyboard_block" data-key="B">B</div>
+        <div class="keyboard_block" data-key="N">N</div>
+        <div class="keyboard_block" data-key="M">M</div>
+        <div class="keyboard_block_2" data-key="DELETE">
+          <img
+            src="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_img/delete.svg"
+            alt="delete"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="./CLONE_CODING/WORDLE_GAME/2024_05_04_SAT_5_js/2024_05_04_SAT_5.js"></script>
+  </body>
+</html>

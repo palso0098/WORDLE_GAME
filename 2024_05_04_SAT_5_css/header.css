@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.menu {
+  width: 25px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Cafe24Decoschool";
+  margin-left: 100px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons img {
+  width: 25px;
+  margin-left: 10px;
+}

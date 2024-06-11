@@ -1,0 +1,41 @@
+main {
+  /*display - grid : 레이아웃을 짜는 태그*/
+  /*
+    grid 태그가 나오기 이전에는 float이나 tavle, flex를 이용해 레이아웃을 짰음
+  */
+  display: grid;
+  /*gap 태그 : 행과 열 사이의 거리를 설정하는 태그*/
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.board_time {
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.board_row_row_0,
+.board_row_row_1,
+.board_row_row_2,
+.board_row_row_3,
+.board_row_row_4,
+.board_row_row_5 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.board_block {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
